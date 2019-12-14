@@ -1,0 +1,43 @@
+#gallery {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+  
+#gallery>li {
+  margin: 5%;
+}
+  
+img {
+  width: 100%;
+}
+
+#counter {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.btn {
+  width: 50px;
+  height: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+  margin-bottom: 50px;
+  list-style: none;
+  display: flex;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
